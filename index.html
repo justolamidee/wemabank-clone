@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wema Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="./wema.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#">
+        <img src="./images/wemalogo-removebg-preview.png" alt="" class="logo">
+      </a>
+      <ul class="menu-list">
+        <li><a href="" class="nav-link">Wema@80</a></li>
+        <li><a href="" class="nav-link">About Us</a></li>
+        <li><a href="" class="nav-link">Personal</a></li>
+        <li><a href="" class="nav-link">Business</a></li>
+        <li><a href="" class="nav-link">SME</a></li>
+        <li><a href="" class="nav-link">ALAT</a></li>
+        <li><a href="" class="nav-link">SARA</a></li>
+        <li><a href="" class="nav-link">Blog</a></li>
+        <li><a href="" class="nav-link">Alat Xplore</a></li>
+      </ul>
+      <button class="signup-button">
+        <svg stroke="currentColor" fill="white" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" height="1em"
+          width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+          <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z">
+          </path>
+        </svg>
+        <a href="">Online Banking Login</a>
+      </button>
+    </nav>
+  </header>
+
+  <section class="hero-sect">
+    <div class="hero-sec">
+      <ul class="hero-list">
+        <li><a href="" class="hero-link">Careers</a>
+        <div class="dropdown-menu">
+          <a href="#">Why Join Wema Bank</a>
+          <a href="#">Our Recruitment Process</a>
+          <a href="#">Career Opportunities</a>
+          <a href="#">Purple Academy</a>
+         </div>
+      </li>
+        <li><a href="" class="hero-link">Investors Relations</a></li>
+        <li><a href="" class="hero-link">Sustainabilty</a></li>
+        <li><a href="" class="hero-link">Resource Center</a></li>
+        <li><a href="" class="hero-link">ALAT Evolution</a></li>
+        <li><a href="" class="hero-link">Contact Us</a></li>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end cursor-pointer">
+          <div>
+      </ul>
+    </div>
+  </section>
+  <!-- carousel -->
+  <section class="carousel">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button style="width:10px; height:10px;
+    border-radius:50%; background: color #007aff;;" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button style="width:10px;height:10px;border-radius:50%; background-color: #007aff;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button style="width:10px;height:10px;border-radius:50%;background-color: #007aff;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button style="width:10px;height:10px;background-color: #007aff;border-radius:50%;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button style="width:10px;height:10px;background-color: #007aff;border-radius:50%;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button style="width:10px;height:10px;background-color: #007aff;border-radius:50%;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button style="width:10px;height:10px;background-color: #007aff;border-radius: 50%;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button style="width:10px;height:10px;background-color: #007aff;border-radius:50%;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="7" aria-label="Slide 8"></button>
+        <button style="width:10px;height:10px;background-color: #007aff;border-radius:50%;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        <button style="width:10px;height:10px;background-color: #007aff;border-radius:50%;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="9" aria-label="Slide 10"></button>
+        <button style="width:10px;height:10px;background-color: #007aff;border-radius:50%;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="10" aria-label="Slide 11"></button>
+        <button style="width:10px;height:10px;background-color: #007aff;border-radius:50%;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="11" aria-label="Slide 12"></button>
+        <button style="width:10px;height:10px;background-color: #007aff;border-radius:50%;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="12" aria-label="Slide 13"></button>
+        <button style="width:10px;height:10px;background-color: #007aff;border-radius:50%;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="13" aria-label="Slide 14"></button>
+        <button style="width:10px;height:10px;background-color: #007aff;border-radius:50%;" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="14" aria-label="Slide 15"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/carousel1.0.jpg" class="d-block w-100" alt="...">
+          <img src="./images/carousel1.1.png" alt="" class="image-one">
+          <img src="./images/carousel1.2.png" alt="" class="image-two">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carousel2.jpg" class="d-block w-100" alt="...">
+          <img src="./images/carousel2.1.png" alt="" class="image-three">
+          <img src="./images/carousel2.2.png" alt="" class="image-four">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carousel.png" class="d-block w-30 margin-left" alt="...">
+          <img src="./images/carousel3.1.png" alt="" class="image-five">
+          <img src="./images/carousel3.2.svg" alt="" class="image-six">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carousel4.png" class="d-block w-100" alt="...">
+          <img src="./images/carousel4.1.png" alt="" class="image-seven">
+          <img src="./images/carousel4.2.png" alt="" class="image-eight">
+          <h1="para">Transformimg Lives, multiple rewards at a time</h1>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carousel5.jpg" class="d-block w-100" alt="...">
+          <img src="./images/carousel5.1.png" alt="" class="image-nine">
+          <img src="./images/carousel5.2.png" alt="" class="image-ten">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/carousel6.1.png" class="d-block w-100" alt="...">
+          <img src="./images/carousel6.2.png" alt="" class="six-">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- cards section  -->
+  <section class="help-section">
+    <div class="help-card">
+      <!-- card1 -->
+      <div class="card">
+        <a href="">
+          <img src="./images/help  center.svg" alt="">
+          <p class="para-card">Help Center</p>
+        </a>
+      </div>
+
+      <!-- card2 -->
+      <div class="card">
+        <a href="">
+          <img src="./images/blower.svg" alt="">
+          <p class="para-card">Whistle Blower</p>
+        </a>
+      </div>
+
+      <!-- card3 -->
+      <div class="card">
+        <a href="">
+          <img src="./images/digital banking.svg" alt="">
+          <p class="para-card">Digital Banking</p>
+        </a>
+      </div>
+
+      <!-- card4 -->
+      <div class="card">
+        <a href="">
+          <img src="./images/faq.svg" alt="">
+          <p class="para-card">FAQs</p>
+        </a>
+      </div>
+
+      <!-- card5 -->
+      <div class="card">
+        <img src="./images/download.png" alt="">
+        <a href="">
+          <p class="para-card">Downloads</p>
+        </a>
+      </div>
+
+      <!-- card6 -->
+      <div class="card">
+        <a href="">
+          <img src="./images/location.svg" alt="">
+          <p class="para-card">Locate Branch</p>
+        </a>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- elevate section  -->
+  <section class="elevate">
+    <div class="product-sect">
+      <div class="products">
+        <h6>Our Products</h6>
+        <h1>Elevate Your Business</h1>
+        <p>With Wema Bank, you can access a range of financial solutions tailored to your business needs,including
+          loans,investment, and trade finance. Get the resources you need to grow and expand your reach.</p>
+      </div>
+      <div class="product-image">
+        <img src="./images/product.svg" alt="">
+      </div>
+    </div>
+    <!-- cards section  -->
+    <div class="card-sect">
+      <!-- card1  -->
+      <div class="card-one">
+        <img src="./images/personal.svg" alt="" class="picture">
+        <h6>Personal Banking</h6>
+        <p>At Wema Bank, We offer a comprehensive range of personal banking products and services to meet your
+          financial needs.</p>
+        <a href="">
+          Get started
+          <i class="fa-solid fa-arrow-right arrow-card"></i>
+        </a>
+      </div>
+      <!-- card2  -->
+      <div class="card-one">
+        <img src="./images/business.svg" alt="">
+        <h6>Business Banking</h6>
+        <p>We empower businesses with a comprehensive range of financial solutions, including loans, investments, and
+          convenient online banking tools, to help them...</p>
+        <a href="">
+          Get Started
+          <i class="fa-solid fa-arrow-right arrow-card"></i>
+        </a>
+      </div>
+      <!-- card3 -->
+      <div class="card-one">
+        <img src="./images/corporate.svg" alt="" class="picture">
+        <h6>Corporate Banking</h6>
+        <p>Our expertise in trade finance and global network also enable businesses to expand beyond borders and reach
+          ne...</p>
+        <a href="">
+          Get Started
+          <i class="fa-solid fa-arrow-right arrow-card"></i>
+        </a>
+      </div>
+      <!-- card4  -->
+      <div class="card-one">
+        <img src="./images/loans.svg" alt="">
+        <h6>Loans</h6>
+        <p>Unlock your financial potential with Wema Bank's extensive range of consumer and business loans. Our flexible
+          and personalized loan options support you in...</p>
+        <a href="">
+          Get Started
+          <i class="fa-solid fa-arrow-right arrow-card"></i>
+        </a>
+      </div>
+      <!-- card5  -->
+      <div class="card-one">
+        <img src="./images/royal.svg" alt="">
+        <h6>Royal Kiddies</h6>
+        <p>Our bespoke children's savings account designed to encourage saving and financial prudence from a young
+          age...</p>
+        <a href="">
+          Get Started
+          <i class="fa-solid fa-arrow-right arrow-card"></i>
+        </a>
+      </div>
+      <!-- card6  -->
+      <div class="card-one">
+        <img src="./images/e-banking.svg" alt="">
+        <h6>E-Banking</h6>
+        <p>We offer a comprehensive E-banking platform, ALAT, providing a range of convenient and secure ways to
+          manage...</p>
+        <a href="">
+          Get Started
+          <i class="fa-solid fa-arrow-right arrow-card"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SME section  -->
+  <section class="SME">
+    <div class="sme-img">
+      <img src="./images/SME-image.jpg" alt="">
+    </div>
+    <div class="partner">
+      <img src="./images/business.svg" alt="">
+      <h6>SME Banking</h6>
+      <h3>Your Strategic SME Partner</h3>
+      <p>Elevate your Enterprise to new heights with a strategic partner. From strategic insights to cutting-edge tools,
+        we are dedicated to propelling your business forward. Let's venture together towards success!</p>
+      <button class="sme-button">
+        <a href="">Learn More</a>
+        <i class="fa-solid fa-arrow-right arrow-sme"></i>
+      </button>
+    </div>
+  </section>
+  <!-- pos section  -->
+  <section>
+    <div class="pos">
+      <!-- card1  -->
+      <div class="pos-sect">
+        <img src="./images/business.svg" alt="" class="pos-img">
+        <h4>Wema POS</h4>
+        <p>Your partner in seamless and secure POS experiences that ensure client satisfaction and seamless payment
+          processing.</p>
+      </div>
+      <!-- card2  -->
+      <div class="pos-sect">
+        <img src="./images/digital banking.svg" alt="">
+        <h4>*945#</h4>
+        <p>Our USSD Code offers a convenient and accessible way to manage your finances on your mobile phone without
+          needing internet access.</p>
+      </div>
+      <!-- card3  -->
+      <div class="pos-sect">
+        <img src="./images/smeloans.svg" alt="" class="loan-img">
+        <h4>SME Loans</h4>
+        <p>We offer a variety of SME loan options to help your business grow, each with its own advantages and
+          requirements.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- custom section  -->
+  <section class="custom">
+    <div class="custom-text">
+      <img src="./images/custom.svg" alt="">
+      <h5>Custom Card</h5>
+      <h2>Experience Individuality in Every Swipe</h2>
+      <p>Make your transactions with our exclusive collection of personalized cards, allowing you to express your unique
+        style and preferences in every financial interaction and transaction you make</p>
+      <button class="custom-button">
+        <a href="">
+          Learn More
+          <i class="fa-solid fa-arrow-right arrow-custom"></i>
+        </a>
+      </button>
+    </div>
+    <div class="gif">
+      <img src="./images/gif.gif" alt="">
+    </div>
+  </section>
+  <!-- ALATpay section  -->
+  <section class="ALAT">
+    <div class="alat-image">
+      <img src="./images/alat.png" alt="">
+    </div>
+    <div class="alat-text">
+      <img src="./images/smeloans.svg" alt="" class="alat-img">
+      <h5>ALATpay</h5>
+      <h2>Your Gateway to Uninterrupted Growth</h2>
+      <p>ALATpay lets businesses collect payments easily from customers via several methods: cards (local and
+        international), bank transfers, phone, NQR, and a dedicated online storefront for displaying and selling
+        products. It's a one-stop platform for seamless digital payments.</p>
+      <button class="alat-button">
+        <a href="">Learn More
+          <i class="fa-solid fa-arrow-right arrow-alat"></i>
+        </a>
+      </button>
+    </div>
+  </section>
+  <!-- investor section  -->
+  <section class="investor">
+    <div class="invest-relate">
+      <div class="invest-text">
+        <h6>Investor Relation</h6>
+        <h2>Explore the Latest Stories Shaping</h2>
+        <h2>Our Financial Landscape</h2>
+        <p>Be informed about our initiatives, partnerships, and the groundbreaking strides we're making in shaping the
+          future of finance and banking.</p>
+      </div>
+      <div class="trade">
+        <h4>2026-05-12</h4>
+        <p>Trade Date</p>
+      </div>
+      <div class="last">
+        <h4>33.4</h4>
+        <p>Last</p>
+      </div>
+      <div class="change">
+        <h4>0.4</h4>
+        <p>Change</p>
+      </div>
+      <div class="bbb">
+        <h4>BBB</h4>
+        <p>Our Rating</p>
+      </div>
+      <div class="invest-image">
+        <img src="./images/investimage.png" alt="" style="width: 100%;">
+      </div>
+    </div>
+    <div class="invest-card">
+      <!-- card1  -->
+      <div class="share">
+        <h5>Our Share Price</h5>
+        <p class="track">Track the rhythm of our stock through real-time updates, insightful analysis, and historical
+          trends.</p>
+      </div>
+      <!-- card2  -->
+      <div class="share">
+        <h5>Fixed Income & Ratings</h5>
+        <p>Experience stability and confidence through our Fixed Income alternatives and ratings, a testament to the
+          trust we inspire in the industry.</p>
+      </div>
+      <!-- card3  -->
+      <div class="share">
+        <h5>Events & Presentations</h5>
+        <p>Join us at our exclusive events where industry experts, thought leaders, and financial professionals converge
+          to share valuable insights.</p>
+      </div>
+    </div>
+  </section>
+  <section class="sustain">
+    <div class="sustainable">
+      <div class="sustain-text">
+        <img src="./images/susimage.svg" alt="">
+        <h6>Sustainabilty</h6>
+        <h2>Championing Responsible Business for a Sustainable Future</h2>
+        <p>We are committed to advancing our sustainability initiatives, emphasizing responsible business practices,
+          environmental stewardship, and fostering shared value for our stakeholders</p>
+        <button class="sus-button">
+          <a href="">
+            Learn More
+            <i class="fa-solid fa-arrow-right arrow-sustain"></i>
+          </a>
+        </button>
+      </div>
+      <div class="sustain-img">
+        <img src="./images/sustain1.jpg" alt="">
+        <img src="./images/sustain2.jpg" alt="" style="width: 60%;">
+      </div>
+    </div>
+  </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrapbundleminjs"
+  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<footer class="foot">
+  <div class="foot-logo">
+    <img src="./images/wemalogo-removebg-preview.png" alt="" class="wema">
+    <div class="license">
+      <h6>Licensed by CBN</h6>
+      <img src="./images/CBN.svg" alt="">
+    </div>
+  </div>
+  <div class="social">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-x-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+  </div>
+
+</footer>
+
+</html>
