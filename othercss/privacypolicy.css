@@ -346,313 +346,104 @@ nav {
     }
 }
 
-.eighty {
-    width: 100%;
-    height: 87vh;
-    background-image: url('../images/eight.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+/* policy section  */
+.policy{
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-.e-img {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.e-img img {
+    align-items: center;
+    padding: 80px 100px;
+    gap: 10px;
     width: 80%;
+    margin: auto;
 }
-
-.eig {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.clock {
-    display: none;
-}
-
-.rib {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-
-@media(max-width:2400px) {
-    .eighty {
-        height: 50vh;
-        position: relative;
-    }
-
-    .rib {
-        position: absolute;
-        left: 0;
-    }
-
-    .e-img {
-        width: 80%;
-    }
-
-    .e-img img {
-        width: 90%;
-    }
-
-    .eightlogo {
-        width: 400px;
-    }
-
-}
-
-@media(max-width:1536px) {
-    .eighty {
-        height: 80vh;
-    }
-
-    .e-img {
-        width: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    }
-}
-
-@media(max-width:1023px) {
-    .eighty {
-        height: 90vh;
-    }
-
-    .e-img {
-        flex-direction: column;
-    }
-
-    .time {
-        margin-left: 45vh;
-    }
-
-    .rib img {
-        width: 70%;
-        height: auto;
-        margin-bottom: 16vh;
-        margin-left: 15vh;
-    }
-}
-
-@media(max-width:954px) {
-    .e-img img {
-        width: 120%;
-    }
-
-    .rib img {
-        width: 70%;
-        height: auto;
-        margin-bottom: 14vh;
-        margin-left: 13vh;
-    }
-}
-
-@media(max-width:854px) {
-    .e-img img {
-        width: 120%;
-    }
-
-    .eig time {
-        margin-top: 4vh;
-    }
-
-    .rib img {
-        width: 75%;
-        height: auto;
-        margin-bottom: 14vh;
-        margin-left: 6vh;
-    }
-}
-
-@media(max-width:778px) {
-    .eighty {
-        height: 110vh;
-    }
-
-    .desktop-only {
-        display: none;
-    }
-
-    .e-img {
-        margin-bottom: 60vh;
-    }
-
-    .clock {
-        display: block;
-    }
-
-    .rib img {
-        display: none;
-    }
-
-    .clock {
-        position: absolute;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        top: 48vh;
-        gap: 2vh;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-@media(max-width:520px) {
-    .eighty {
-        height: 90vh;
-    }
-
-    .e-img {
-        margin-bottom: 40vh;
-    }
-
-    .clock {
-        bottom: 20vh;
-    }
-}
-
-@media(max-width:400px) {
-    .eighty {
-        height: 80vh;
-    }
-}
-
-/* media section  */
-.media-sect {
-    width: 100%;
-    height: 10vh;
-    gap: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.media-text {
-    font-size: 16px;
-}
-
-.media-logo {
-    display: flex;
-    gap: 1em;
-}
-
-@media(max-width:637px) {
-    .media-sect {
-        flex-direction: column;
-    }
-}
-
-.history {
-    width: 100%;
-    height: 100vh;
-    background-image: url('../images/hisback.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.history-content {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-
-.his-logo {
-    position: absolute;
-    left: 170vh;
-    bottom: -25vh;
-
-}
-
-.his-text .his-tex {
-    font-size: 60px;
-    font-weight: 700;
-    margin-bottom: 4vh;
-}
-
-.his-text {
-    width: 100%;
-    height: 55vh;
-    color: white;
-    gap: 1em;
-}
-
-.his-text p {
-    font-weight: 700;
-    font-size: 14px;
-    margin-bottom: 1.4em;
-}
-
-.his-image img {
-    width: 600px;
-    margin-top: 20vh;
-}
-
-.his-button {
-    background: #780965;
-    border: none;
-    padding: 1.2vh 2vh;
-    border-radius: 6px;
-}
-
-.his-button a {
-    color: white;
+.poli-text{
+    flex: 1;
     font-size: 14px;
     font-weight: 400;
 }
-
-/* history media query   */
- /* @media(max-width:2401px) {
-    .history {
-        height: 100vh;
+.badge{
+    display: inline-block;
+    background: #981d87;
+    color: white;
+    padding: 14px 32px;
+    border-radius: 22px;
+    border-bottom: 30px;
+    margin-bottom: 20px;
+}
+.poli-text h1{
+    font-size: 51.2px;
+    font-weight: 600;
+    font-weight: bold;
+    color: #2E323D;
+}
+.poli-img{
+    flex: 1;
+}
+.p-img{
+    width: 100%;
+    max-width: 700vh;
+    display: block;
+}
+@media(max-width: 1025px){
+    .policy{
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 2em;
+        width: 80%;
     }
-
-    .history-content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .p-img{
+        width: 100%;
+        max-width: 850vh;
     }
-
-    .his-logo {
-        bottom: 15vh;
-        right: 2vh;
-    }
-
-    .his-text {
-        margin-top: 16vh;
-    }
-
-    .his-image {
-        margin-bottom: 2vh;
+}
+@media(max-width: 800px){
+    .p-img{
+        width: 100%;
     }
 }
 
-@media(max-width:1964px) {
-    .his-logo {
-        left: 70%;
-    }
+/* policy note section  */
+.policy-note{
+    width: 80%;
+    margin: auto;
+    background: white;
+    
+}
+.policy-note h4{
+    /* color:#857373; */
+    font-size: 16px;
+    font-weight: 700;
+}
+.policy-note p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.note{
+    color: #737373;
+    margin-bottom: 4vh;
+}
+.note h4{
+    margin-bottom: 1vh;
+}
+.note p{
+    margin-bottom: 1vh;
+}
+.black{
+    color: black;
+}
+.small{
+    font-size: 16px;
+    font-weight: 700;
+}
+.digit{
+    font-size: 16px;
+    font-weight: 400;
 }
 
-@media(max-width:1536){
-    .history{
-        height: 100vh;
-    }
-    .his-logo{
-        bottom: -20vh;
-    }
-    .his-image img{
-        width: 300px;
-    }
-} */
+
+
+
 
 /* footer section  */
 .foot {
@@ -776,7 +567,6 @@ nav {
     align-items: center;
     justify-content: center;
     width: 80%;
-    /* height: 4vh; */
     margin: auto;
     color: #B31D87;
 }
@@ -898,7 +688,7 @@ nav {
 
 @media(max-width: 456px) {
     .foot {
-        height: 190vh;
+        height: 250vh;
     }
 }
 
@@ -910,5 +700,15 @@ nav {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+}
+@media(max-width: 376px){
+    .foot{
+        height: 280vh;
+    }
+}
+@media(max-width: 325px){
+    .foot{
+        height: 380vh;
     }
 }

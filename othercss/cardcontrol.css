@@ -179,6 +179,7 @@ nav {
         display: none;
     }
 }
+
 /* hero section  */
 .hero-sec {
     width: 100%;
@@ -191,7 +192,7 @@ nav {
     margin: auto;
     display: flex;
     align-items: center;
-    gap: 0.8em;
+    gap: 1.2em;
     padding: 10px;
 }
 
@@ -237,12 +238,232 @@ nav {
     text-underline-offset: 5px;
 }
 
+.dropdown {
+    position: relative;
+}
+
+.drop-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    width: 160px;
+    height: 130px;
+    list-style: none;
+    z-index: 999;
+    margin-top: 10px;
+}
+
+.dropdown:hover .drop-menu {
+    display: block;
+}
+
+.drop-menu li {
+    margin-bottom: 20px;
+}
+
+.drop-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.drop-menuone {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 2vh;
+    background: white;
+    width: 140px;
+    height: 120px;
+    list-style: none;
+    z-index: 999;
+    margin-top: 10px;
+}
+
+.dropdown:hover .drop-menuone {
+    display: block;
+}
+
+.drop-menuone li {
+    margin-left: 2vh;
+    margin-bottom: 20px;
+}
+
+.drop-menuone a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.drop-menutwo {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    width: 260px;
+    height: 410px;
+    list-style: none;
+    z-index: 999;
+    margin-top: 10px;
+}
+
+.dropdown:hover .drop-menutwo {
+    display: block;
+}
+
+.drop-menutwo li {
+    margin-left: 2vh;
+    margin-bottom: 20px;
+}
+
+.drop-menutwo a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.drop-menuthree {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    width: 300px;
+    height: 200px;
+    list-style: none;
+    z-index: 999;
+    margin-top: 10px;
+}
+
+.dropdown:hover .drop-menuthree {
+    display: block;
+}
+
+.drop-menuthree li {
+    margin-left: 2vh;
+    margin-bottom: 20px;
+}
+
+.drop-menuthree a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 /* hero section media query  */
 @media(max-width:1024px) {
     .hero-list {
         display: none;
     }
 }
+
+/* control section  */
+.control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10px;
+    gap: 10vh;
+    width: 80%;
+    margin: auto;
+}
+
+.control-text {
+    /* flex: 1; */
+    width: 200%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.badge {
+    display: inline-block;
+    background: #981d87;
+    color: white;
+    padding: 14px 32px;
+    border-radius: 22px;
+    border-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.control-text h1 {
+    font-size: 51.2px;
+    font-weight: 600;
+    font-weight: bold;
+    color: #2E323D;
+}
+
+.control-img {
+    width: 250%;
+    height: 260%;
+}
+.control-sect::after{
+    content: "";
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 2px;
+    background: #E9E9E9;
+    margin-top: -20px;
+}
+@media(max-width:1025px){
+    .control{
+        flex-direction: column;
+        text-align: left;
+        gap: 2em;
+        margin: auto;
+    }
+    .control-text{
+        width: auto;
+    }
+    .control-img{
+        width: 120%;
+    }
+}
+
+/* .control-note section  */
+.control-note{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+}
+.alat{
+    width: 80%;
+    margin: auto;
+}
+.alat h6{
+    margin-bottom: 4vh;
+    font-size: 16px;
+    font-weight: 700;
+}
+.alat p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.alat::after{
+    content: "";
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 2px;
+    background: #E9E9E9;
+    margin-top: 10vh;
+}
+@media(max-width: 410px){
+    .control-note{
+        /* height:70vh; */
+    }
+}
+
+
+
 /* footer section  */
 .foot {
     width: 100%;
@@ -487,7 +708,7 @@ nav {
 
 @media(max-width: 456px) {
     .foot {
-        height: 190vh;
+        height: 210vh;
     }
 }
 
@@ -499,5 +720,15 @@ nav {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+}
+@media(max-width: 376px){
+    .foot{
+        height: 280vh;
+    }
+}
+@media(max-width: 325px){
+    .foot{
+        height: 380vh;
     }
 }
