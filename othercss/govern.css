@@ -349,7 +349,7 @@ nav {
     display: flex;
     justify-content: center;
     padding: 10vh 10px;
-    gap: 20vh;
+    gap: -20vh;
     width: 80%;
     margin: auto;
 }
@@ -358,7 +358,7 @@ nav {
     margin: auto;
 }
 .govern-text {
-    width: 200%;
+    width: 50%;
     font-size: 14px;
     font-weight: 400;
 }
@@ -411,9 +411,26 @@ nav {
     .govern{
         width: 100%;
         margin: auto;
+        margin-left: 30px;
     }
     .govern-img{
-        max-width: 50%;
+        max-width: 70%;
+    }
+    .govern-text{
+        width: 45%;
+    }
+}
+@media(max-width: 401px){
+    .govern{
+        width: 100%;
+        margin: auto;
+        margin-left: 35px;
+    }
+    .govern-img{
+        max-width: 65%;
+    }
+    .govern-text{
+        width: 38%;
     }
 }
 
@@ -820,7 +837,7 @@ nav {
 
 @media(max-width: 456px) {
     .foot {
-        height: 210vh;
+        height: 220vh;
     }
 }
 
