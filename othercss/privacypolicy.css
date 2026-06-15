@@ -325,7 +325,8 @@ nav {
     list-style: none;
     z-index: 999;
     margin-top: 10px;
-}.dropdown:hover .drop-menuthree{
+}
+.dropdown:hover .drop-menuthree{
     display: block;
 }
 .drop-menuthree li{
